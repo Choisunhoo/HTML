@@ -1,0 +1,4 @@
+<!-- 기본 문법 태크 strong(강조) 와 u(밑줄) 강조 및 밑줄을 긋고 싶은 단어를 가운데 두고 앞뒤로 <tag> </tag>를 추가 하면 된다 -->
+
+Hypertext markup Language (HTML) is the standard markup lanuage 
+for <strong>creating <u>web</u> pages</strong> and web applications.
