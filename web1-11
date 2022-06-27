@@ -1,0 +1,10 @@
+<h1>HTML</h1>
+Hypertext markup Language (HTML) is the standard markup lanuage for <strong>creating <u>web</u> pages</strong> and web applications.
+Web browsers revceive HTML documents from a web server or from local storage and render them into multimedia web pages.
+HTML describes the structure of a web page semantically and originally included cues for the appearance of the documents
+<!-- <img> 태그는 웹에 사진을 넣는 태그이다 attribute(태그가 태그의 이름만으로는 부족할때 가져오는 것 "속성" 을 통해서 더 많은 의미 부여가 가능하다)을 가지고 있고 가져올 이미지 와 사이즈가 속성이 되었다 src =" ", width=" " 위의 순서의 여부는 관계가 없다.-->
+<img src="coding.jpg" width="100%">
+</p><p style="margin-top:40px;">HTML elements are the building blocks of HTML pages.
+With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.
+It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+HTML elements are delineated by tags, written using angle brackets.</p>
