@@ -1,0 +1,6 @@
+<h1>HTML</h1>
+Hypertext markup Language (HTML) is the standard markup lanuage for <strong>creating <u>web</u> pages</strong> and web applications.Web browsers revceive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the documents
+<!-- <br> 태그는 줄바꿈을 위해서 사용한다 2번 사용시 단락을 나눌수도 있다. 다른 태그들과 다르게 쌍이 아닌 줄바꿈 이라는 시각적인 의미 만은 가지고 있기 때문에 단독으로 사용가능(감쌀 필요가 없음)-->
+</p><p style="margin-top:40px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+<!-- <p> 단락을 나누는 정식 태크는 <p>로 어디서 부터 어디까지 열리고 닫히는지  -->
+<!-- 같은 상황에서 단락을 나눌때는 <p>가 <br>태그보다 조금 더 가치있는 태그이다 의미론적인 표현으로 인한 차이-->
