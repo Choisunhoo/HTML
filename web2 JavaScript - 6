@@ -1,0 +1,35 @@
+// 웹 페이지에 1이 팝업됨 
+alter(1);
+// 웹 페이지에 2가 팝업됨
+alter(1+1);
+
+// *2  숫자
+1+1 
+// *1
+2-1
+// *8
+2*4
+// *3
+6/2
+
+// 문자 
+"Hello world"
+'Hello world'
+
+// 문자의 길이를 알려주는 함수 length
+'Hello world'.length //  11 (공백 포함해서)
+
+// 문자열을 대문자로 바꾸는 함수 toUpperCase()
+'Hello world'.toUpperCase() // "HELLO WORLD"
+
+// 지정된 글자가 문자열 안에 있는지를 알려주는 함수 indexOf('') 있는 경우에는 시작번호를 출력 아닌 경우 -1 출력 
+'Hello world'.indexOf('world')  // 6
+'Hello world'.indexOf('O')      // -1
+'Hello world'.indexOf('o')      // 4
+
+// 공백을 없에 주는 함수 trim() 
+'               hello             '.trim()  // "hello"
+
+// 문자열과 숫자열 차이 
+1 + 1 // 2
+"1" + "1" = "11"
