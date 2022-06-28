@@ -1,0 +1,26 @@
+<!--<span class="js>JavaScript</span>-->
+<!doctype html>
+<html>
+<head>
+  <!-- <style> css을 사용하겠다고 선언 한뒤 js라는 class를 생성하고 거기서 명령하면. class="js" 리거 태그 걸어진 곳에는 전부 같은 명령이 실행됨-->
+  <style>
+    .js{
+      font-weight: bold;
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <h2 style="background-color:coral;color:powderblue;">JavaScript</h2>
+  <p>
+    <!--<span> 스타일 적용을 사용할때 사용되는 태그로 인라인(문단을 끊지 않는다) 요소이다.-->
+    <span class="js">JavaScript</span> often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+    As of 2022, 98% of websites use <span class="js">JavaScript</span> on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated <span class="js">JavaScript</span> engine to execute the code on users' devices.
+    <span class="js">JavaScript</span> is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.
+    <span class="js">JavaScript</span> has dynamic typing, prototype-based object-orientation, and first-class functions.
+    <span class="js">JavaScript</span> is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
+    <span class="js">JavaScript</span> has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model.
+  </p>
+</body>
+</html>
