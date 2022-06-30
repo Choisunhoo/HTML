@@ -1,0 +1,38 @@
+<!DOCTPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--조건문 if() 괄호안에 조건을 걸고 그에 맞으면 밑에 명령한것을 실행 아닌경우 else 밑에 명령된 것을 실행-->
+    <h1>Conditional statements</h1>
+    <h2>Program</h2>
+    <script>
+      document.write("1<br>");
+      document.write("2<br>");
+      document.write("3<br>");
+      document.write("4<br>");
+    </script>
+    <h2>If-true</h2>
+    <script>
+      document.write("1<br>");
+      if(true){
+        document.write("2<br>");
+      } else {
+        document.write("3<br>");
+      }
+      document.write("4<br>");
+    </script>
+    <h2>If-false</h2>
+    <script>
+      document.write("1<br>");
+      if(false){
+        document.write("2<br>");
+      } else {
+        document.write("3<br>");
+      }
+      document.write("4<br>");
+    </script>
+  </body>
+</html>
