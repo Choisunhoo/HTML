@@ -15,29 +15,29 @@
 </script>
 </head>
 <body>
-  <!--반복문을 통해서 모든 링크가 등록되어있는 쿼리를 리스트로 정리한 것을 처음부터 끝까지 버튼을 누를때 색을 바꾸게함-->
   <h1><a href="index.html">WEB</a></h1>
+  <!--변수의 지정과 사용으로 인해서 중복을 피하고. this를 사용해서 이 안에 있는 것을 지정하기 만들어서 코드를 간결하게 한다(리팩토링 중복의 제거)-->
+  <input type="button" value="night" onclick="
     var target = document.querySelector('body')
     if (this.value === 'night') {
       this.value = 'day'
       target.style.backgroundColor = 'black';
       target.style.color = 'white';
 
-      var alist = document.querySelectorAll('a');
+      var alist = document.querySelectorAll('a')
       var i = 0
-      while(i < alist.length) {
+      while (i < alist.length) {
         alist[i].style.color = 'powderblue';
         i += 1
       }
-
     }else {
       this.value = 'night'
       target.style.backgroundColor = 'white';
       target.style.color = 'black';
 
-      var alist = document.querySelectorAll('a');
+      var alist = document.querySelectorAll('a')
       var i = 0
-      while(i < alist.length) {
+      while (i < alist.length) {
         alist[i].style.color = 'blue';
         i += 1
       }
